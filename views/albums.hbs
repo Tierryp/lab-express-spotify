@@ -1,0 +1,7 @@
+{{#each albums}}
+<p>{{name}}</p>
+{{!-- "images 0 url for accessing an array within a object thats within a API" --}}
+<img src = "{{images.0.url}}" alt="artist album"/>
+<a href = "/tracks/{{id}}">Tracks</a>
+
+{{/each}}
